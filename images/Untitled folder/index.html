@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>panda</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        body{
+            background-color: rgb(62, 62, 160);
+        }
+    .walkpanda{
+        animation-name:panda ;
+        background-image: url(/download\ \(1\).png);
+        width:242px;
+        height: 350px;
+        animation: panda 1s  infinite , walk 1s linear infinite; 
+
+    }
+ @keyframes panda{
+
+
+ }
+ @keyframes walk{
+0% {transform: translateX(-500px);}
+100%{transform :translateX(1600px);}
+
+ }
+ .road{
+    border-bottom: 7px dashed darkblue;
+ }
+    </style>
+</head>
+<body>
+    <div class="walkpanda"></div>
+    <div class="road"></div>
+</body>
+</html>
